@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #d8ca38;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bloco {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1a1f39;
+    
+}
+
+span {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#cronometro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+
+    margin-bottom: 5%;
+
+    border-radius: 100%;
+    border: 3px solid #d8ca38;
+}
+
+#cronometro h1 {
+    font-size: 2.3rem;
+}
+
+#funções {
+    width: 500px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#funções h2 {
+    padding: 20px;
+    
+    transition: 0.3s ease-in-out;
+}
+
+#funções h2:hover {
+    border: 2px solid #d8ca38;
+    border-radius: 50%;
+    cursor: pointer;
+}
